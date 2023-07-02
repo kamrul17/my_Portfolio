@@ -12,12 +12,3 @@ const textLoad = () => {
 };
 textLoad();
 setInterval(textLoad, 12000);
-
-// Scroll to Bottom
-$(window).scroll(function () {
-  if ($(this).scrollTop() > 100) {
-    $(".scroll-to-bottom").fadeOut("slow");
-  } else {
-    $(".scroll-to-bottom").fadeIn("slow");
-  }
-});

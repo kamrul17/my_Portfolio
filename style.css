@@ -33,7 +33,7 @@ a {
 /* resuse css */
 #top-nav {
   background-color: #1e1139;
-  /* background-color: #daac00; */
+
   padding: 0 8%;
 }
 #logo-img {
@@ -49,23 +49,6 @@ a {
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #0bceaf;
 }
-
-/* media queries*/
-
-@media only screen and (max-width: 768px) {
-  #Searchform {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    position: relative;
-    left: -16px;
-  }
-}
-@media only screen and (max-width: 500px) {
-  #top-nav {
-    padding: 0;
-  }
-}
-
 /*banner*/
 #banner {
   background-color: #260f31;
@@ -102,109 +85,7 @@ a {
     border-radius: 60% 40% 30% 70% /60% 30% 70% 40%;
   }
 }
-#bannertext p {
-  color: white;
-  font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-#banner-btn-1 {
-  border: 2px solid rgb(29, 105, 247);
-  color: rgb(29, 105, 247);
-}
 
-/*media queries*/
-@media only screen and (max-width: 1230px) {
-  #bannertext h1 {
-    font-size: 63px;
-  }
-  #bannertext p {
-    font-size: 29px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  #bannertext h1 {
-    font-size: 46px;
-  }
-  #bannerimg {
-    padding-top: 31px;
-  }
-  #bannertext p {
-    font-size: 26px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  #banner {
-    padding-bottom: 70px;
-  }
-  #bannerimg {
-    padding-top: 67px;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  #bannertext h1 {
-    font-size: 40px;
-  }
-  #banner {
-    padding-bottom: 48px;
-  }
-  #bannertext p {
-    font-size: 20px;
-  }
-}
-@media only screen and (max-width: 420px) {
-  #bannertext h1 {
-    font-size: 25px;
-  }
-}
-/*portfolio section*/
-
-/*portfolio section*/
-/*service section*/
-
-@media only screen and (max-width: 768px) {
-  #service-image {
-    padding-top: 85px;
-  }
-}
-@media only screen and (max-width: 576px) {
-  #service-image {
-    padding-top: 65px;
-  }
-}
-
-/*counter section*/
-
-#counter-section {
-  background-color: #fcc302;
-  padding-top: 40px;
-  padding-bottom: 50px;
-}
-
-/*post section*/
-
-#blog {
-  padding-top: 9%;
-  padding-bottom: 5%;
-}
-
-#blog-title {
-  font-size: 50px;
-  font-weight: bolder;
-}
-#blog-p {
-  font-size: 20px;
-}
-.article-detail {
-  border: 1px solid rgb(185, 185, 185);
-  border-top: 0;
-  padding: 15px;
-}
-.article-date,
-.article-link {
-  color: #00bec9;
-}
 /*footer*/
 #footer {
   background-color: #1e1139;
@@ -212,54 +93,20 @@ a {
   padding-bottom: 5%;
 }
 
-@media only screen and (max-width: 1100px) {
-  #footer-search-box {
-    max-width: 210px;
-  }
-}
-@media only screen and (max-width: 943px) {
-  #footer-search-box {
-    max-width: 180px;
-  }
-}
-@media only screen and (max-width: 858px) {
-  #footer-search-box {
-    max-width: 150px;
-  }
-}
-@media only screen and (max-width: 576px) {
-  #footer-search-box {
-    max-width: 220px;
-  }
-  #footer h1 {
-    padding-top: 15px;
-  }
-}
 /*====================== Back to buttom ==================*/
 
-.scroll-to-bottom {
-  position: fixed;
-  width: 20px;
-  left: calc(50% - 10px);
-  bottom: 30px;
-  z-index: 11;
-  animation: action 1s infinite alternate;
-}
-.scroll-to-bottom:hover {
-  background-color: rgb(29, 105, 247);
-  color: #ffffff;
-}
 .back-to-top {
   position: fixed;
   border: 2px solid rgb(29, 105, 247);
-  /* display: none; */
-
-  width: 45px;
+  width: 56px;
+  height: 44px;
   text-align: center;
   right: 30px;
   bottom: 30px;
   z-index: 11;
-  animation: action 1s infinite alternate;
-
   color: rgb(29, 105, 247);
+}
+.back-to-top:hover {
+  background-color: rgb(29, 105, 247);
+  color: #ffffff;
 }
