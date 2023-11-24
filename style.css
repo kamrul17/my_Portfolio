@@ -111,3 +111,15 @@ a {
   background-color: rgb(29, 105, 247);
   color: #ffffff;
 }
+/* updated skills section */
+hr {
+  border: 1px solid;
+  height: 2px;
+  background-color: #5252e8; /* Set the color of the line, in this case, black */
+  margin: 20px 0; /* Adjust the margin as needed */
+}
+.bg {
+  background-color: #4883e9;
+
+  border-radius: 20px 20px;
+}
