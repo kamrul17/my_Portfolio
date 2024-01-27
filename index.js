@@ -4,10 +4,10 @@ const textLoad = () => {
     text.textContent = "Web Developer";
   }, 0);
   setTimeout(() => {
-    text.textContent = "Freelancer";
+    text.textContent = "Web Developer";
   }, 4000);
   setTimeout(() => {
-    text.textContent = "Java Developer";
+    text.textContent = "Web Developer";
   }, 8000);
 };
 textLoad();
