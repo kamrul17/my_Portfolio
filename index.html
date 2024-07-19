@@ -1,407 +1,346 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="/css/all.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-crossorigin="anonymous"
-referrerpolicy="no-referrer"
-/>
-    <title>myPortfolio</title>
-  </head>
-  <body>
-    <nav class="navbar  navbar-expand-lg navbar-dark shadow-lg" id="top-nav">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img
-            src="images/logoai.jfif"
-            id="logo-img"
-            alt="logo"
-            class="img-fluid"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#home">Home</a>
-            </li>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>  
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-          <a  href="#contact"> <button type="button" class="All_btn">Hire Me</button></a>
-          <!-- <button type="button" class="All_btn">Hire Me</button> -->
-        </div>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>myPortfolio</title>
+</head>
+
+<body>
+  <nav class="navbar  navbar-expand-lg navbar-dark shadow-lg" id="top-nav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/logoai.jfif" id="logo-img" alt="logo" class="img-fluid" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <a href="#contact"> <button type="button" class="All_btn">Hire Me</button></a>
+        <!-- <button type="button" class="All_btn">Hire Me</button> -->
       </div>
-    </nav>
-    <!--nav bar end-->
+    </div>
+  </nav>
+  <!--nav bar end-->
 
-    <div class="container-fluid  justify-content-center ">
-      <div class="row  d-flex align-items-center justify-content-center " id="banner">
-        <div class="col-md-6 col-11 my-4 text-center " id="bannertext">
-          <div class="name_section ">
-            Hi, My name is <span class="purple">Kamrul Ansari</span>
-            <div>and I am a passionate</div>
-            <div class="sec-text purple"></div>
-          
-           </div>
-          <a href="CV/Kamrul_Ansari.pdf"><button type="button" class="All_btn mt-3">Download CV</button></a>
-          
+  <div class="container-fluid  justify-content-center ">
+    <div class="row  d-flex align-items-center justify-content-center " id="banner">
+      <div class="col-md-6 col-11 my-4 text-center " id="bannertext">
+        <div class="name_section ">
+          Hi, My name is <span class="purple">Kamrul Ansari</span>
+          <div>and I am a passionate</div>
+          <div class="sec-text purple"></div>
+
         </div>
-        <div class="col-md-4 d-md-block my-3  text-center">
-          <div id="bannerimg">
-            <img
-              src="images/mainIMg.webp"
-              alt="dogimage"
-              class="img-fluid"
-              id="my_img"
-            />
-          </div>
-        </div>
+        <a href="CV/Kamrul_FS.pdf"><button type="button" class="All_btn mt-3">Download CV</button></a>
+
       </div>
-      <!--about-->
-      
-  
-      <div class="row align-items-center body_color" id="about">
-        <div class=" shadow-lg position-relative d-flex align-items-center justify-content-center nav_color">
-          <h1 class="display-4 text-uppercase text-white" style="-webkit-text-stroke: 0.4px yellow">
-            About Me
-          </h1>
-        </div>
-        <div class="col-lg-5 pb-4 pb-lg-0">
-          <img class="img-fluid rounded w-100" src="images/aboutImg.png" alt="My photo"/>
-        </div>
-        <div class="col-lg-7">
-          <h3 class="mb-4"> Web_Developer </h3>
-          <p>
-            I am Kamrul Ansari , currently I'm pursuing  Bachelor of Technology (B.Tech) in Computer Science and
-            Engineering from Chaibasa Engineering College, Jharkhand.
-          </p>
-          <div class="row mb-3">
-            <div class="col-sm-6 py-2">
-              <h6>
-                Name: <span class="text-secondary">Kamrul Ansari</span>
-              </h6>
-            </div>
-            <div class="col-sm-6 py-2">
-              <h6>
-                Birthday: <span class="text-secondary">26<sup>th</sup> December,1999</span>
-              </h6>
-            </div>
-            <div class="col-sm-6 py-2">
-              <h6>Degree: <span class="text-secondary">Bachelor of Technology (B.Tech)</span></h6>
-            </div>
-            <div class="col-sm-6 py-2">
-              <h6>Experience: <span class="text-secondary">Fresher</span></h6>
-            </div>
-            <div class="col-sm-6 py-2">
-              <h6>
-                Phone No.: <span class="text-secondary">+91-8789577654</span>
-              </h6>
-            </div>
-            <div class="col-sm-6 py-2">
-              <h6>
-                Email:
-                <span class="text-secondary">kamrula786@gmail.com</span>
-              </h6>
-            </div>
-            <div class="col-sm-6 py-2">
-              <h6>
-                Address:
-                <span class="text-secondary"
-                  >Panchet Dam, Dhanbad, Jharkhand, 828206,</span
-                >
-              </h6>
-            </div>
-           
-          </div>
-          <a href="https://github.com/kamrul17" class="btn blue btn-outline-primary mr-4 All_btn" target="_blank">GitHub</a>
-          <a href="https://www.linkedin.com/in/kamrulansari/" class="btn btn-outline-primary mr-4 All_btn" target="_blank">Linkedin</a>
-          <a href="#contact" class="btn btn-outline-primary All_btn" target="_blank">Hire Me</a>
+      <div class="col-md-4 d-md-block my-3  text-center">
+        <div id="bannerimg">
+          <img src="images/mainIMg.webp" alt="dogimage" class="img-fluid" id="my_img" />
         </div>
       </div>
     </div>
-    
-  </div>
-       <!--Skills section-->
-       <div class="row justify-content-around body_color" id="skills" >
-        
-          <div class=" shadow-lg position-relative d-flex align-items-center justify-content-center nav_color" >
-            <h1 class="display-3 text-uppercase text-white" style="-webkit-text-stroke: 0.4px yellow">
-              Skills
-            </h1>
-          </div>
-          <div
-          class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
-          style="width: 100px; height: 100px"
-        >
-          <i class="fa-brands fa-html5 fa-regular fa-4x"></i>
-          <p>HTML</p>
-        </div>
-        <div
-          class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
-          style="width: 100px; height: 100px"
-        >
-          <i class="fa-brands fa-css3-alt fa-4x"></i>
-          <p>CSS</p>
-        </div>
-        <div
-          class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
-          style="width: 100px; height: 100px"
-        >
-          <i class="fa-brands fa-bootstrap fa-4x"></i>
-          <p>BOOTSTRAP</p>
-        </div>
-        <div
-          class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
-          style="width: 100px; height: 100px"
-        >
-          <i class="fa-brands fa-java fa-4x"></i>
-          <p>JAVA</p>
-        </div>
-        <div
-          class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
-          style="width: 100px; height: 100px"
-        >
-          <i class="fa-brands fa-js fa-4x"></i>
-          <p>Javascript</p>
-        </div>
-        <div
-          class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
-          style="width: 100px; height: 100px"
-        >
-          <i class="fa-brands fa-github fa-4x"></i>
-          <p>GITHUB</p>
-        </div>
-        <div
-          class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
-          style="width: 100px; height: 100px"
-        >
-          <i class="fa-brands fa-git fa-4x"></i>
-          <p>GIT</p>
-        </div>
-        <div
-          class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
-          style="width: 100px; height: 100px"
-        >
-          <i class="fa-brands fa-aws fa-4x"></i>
-          <p>AWS</p>
-        </div>
+    <!--about-->
 
-        <div
-          class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
-          style="width: 100px; height: 100px"
-        >
-          <i class="fa-brands fa-jenkins fa-4x"></i>
-          <p>JENKINS</p>
-        </div>
-        <div
-          class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
-          style="width: 100px; height: 100px"
-        >
-        <i class="fa-brands fa-python fa-4x"></i>
-          <p>PYTHON</p>
-        </div>
-        <div
-          class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
-          style="width: 100px; height: 100px"
-        >
-        <i class="fa-brands fa-react fa-4x"></i>
-          <p>REACT JS</p>
-        </div>
-        <div
-          class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
-          style="width: 100px; height: 100px"
-        >
-          <svg
-            width="70"
-            height="80"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12.207 16.278C11.1241 17.343 9.63879 18 8 18C4.68629 18 2 15.3137 2 12C2 8.68629 4.68629 6 8 6C9.67492 6 11.1896 6.6863 12.278 7.79303L13.6923 6.37878C12.2418 4.91014 10.2272 4 8 4C3.58172 4 0 7.58172 0 12C0 16.4183 3.58172 20 8 20C10.1911 20 12.1764 19.1192 13.6212 17.6923L12.207 16.278Z"
-              fill="#000000"
-            />
-            <path
-              d="M15 9H13V11H11V13H13V15H15V13H17V11H15V9Z"
-              fill="#000000"
-            />
-            <path
-              d="M20 9H22V11H24V13H22V15H20V13H18V11H20V9Z"
-              fill="#000000"
-            />
-          </svg>
-          <p>C++</p>
-        </div>
 
-        <div
-          class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
-          style="width: 100px; height: 100px"
-        >
-          <svg
-            fill="#000000"
-            width="80px"
-            height="80px"
-            viewBox="0 0 32 32"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>mysql</title>
-            <path
-              d="M30.026 15.139c-0.082-0.006-0.177-0.010-0.273-0.010-0.484 0-0.947 0.090-1.373 0.254l0.026-0.009c-0.125 0.050-0.325 0.050-0.342 0.209 0.069 0.066 0.079 0.175 0.137 0.267 0.117 0.198 0.261 0.366 0.429 0.506l0.003 0.003c0.175 0.137 0.35 0.27 0.534 0.387 0.325 0.2 0.694 0.319 1.012 0.52 0.181 0.117 0.366 0.266 0.55 0.391 0.091 0.062 0.15 0.175 0.267 0.215v-0.025c-0.057-0.075-0.075-0.184-0.131-0.267-0.084-0.084-0.167-0.159-0.25-0.241-0.248-0.325-0.535-0.603-0.857-0.835l-0.012-0.008c-0.267-0.182-0.852-0.437-0.962-0.744l-0.016-0.018c0.218-0.031 0.412-0.077 0.599-0.139l-0.024 0.007c0.284-0.075 0.544-0.059 0.837-0.132 0.132-0.034 0.266-0.075 0.4-0.117v-0.075c-0.15-0.15-0.262-0.354-0.417-0.494-0.409-0.36-0.86-0.698-1.335-1.002l-0.045-0.027c-0.262-0.167-0.595-0.275-0.871-0.417-0.1-0.050-0.267-0.075-0.325-0.159-0.13-0.185-0.245-0.397-0.336-0.621l-0.008-0.022q-0.368-0.714-0.684-1.453c-0.144-0.383-0.287-0.697-0.448-1.001l0.023 0.047c-0.786-1.319-1.881-2.379-3.188-3.102l-0.043-0.022c-0.309-0.153-0.668-0.272-1.045-0.339l-0.025-0.004c-0.209-0.010-0.417-0.025-0.625-0.034-0.146-0.094-0.272-0.19-0.39-0.296l0.003 0.003c-0.475-0.3-1.704-0.95-2.054-0.090-0.225 0.542 0.334 1.077 0.527 1.352 0.154 0.183 0.294 0.388 0.415 0.605l0.010 0.020c0.059 0.145 0.075 0.294 0.134 0.445 0.145 0.452 0.292 0.823 0.459 1.182l-0.026-0.062c0.099 0.199 0.202 0.368 0.317 0.528l-0.008-0.012c0.067 0.091 0.182 0.134 0.209 0.284-0.086 0.181-0.153 0.391-0.19 0.61l-0.002 0.014c-0.108 0.332-0.171 0.715-0.171 1.112 0 0.621 0.153 1.206 0.423 1.72l-0.010-0.020c0.134 0.207 0.452 0.667 0.878 0.491 0.375-0.15 0.292-0.625 0.4-1.043 0.025-0.1 0.009-0.166 0.060-0.234v0.019c0.117 0.235 0.235 0.459 0.342 0.694 0.302 0.435 0.661 0.805 1.071 1.11l0.013 0.009c0.2 0.15 0.359 0.41 0.609 0.502v-0.025h-0.019c-0.057-0.062-0.12-0.117-0.189-0.164l-0.004-0.002c-0.155-0.152-0.299-0.316-0.429-0.489l-0.008-0.011c-0.326-0.44-0.636-0.938-0.905-1.461l-0.029-0.061c-0.137-0.262-0.252-0.545-0.362-0.804-0.050-0.1-0.050-0.25-0.134-0.3-0.148 0.166-0.281 0.351-0.392 0.55l-0.008 0.016c-0.128 0.373-0.212 0.804-0.234 1.251l-0 0.011c-0.034 0.009-0.017 0-0.034 0.018-0.267-0.065-0.359-0.342-0.459-0.575-0.136-0.366-0.215-0.79-0.215-1.231 0-0.356 0.051-0.7 0.147-1.025l-0.006 0.026c0.059-0.175 0.309-0.727 0.209-0.895-0.052-0.159-0.217-0.25-0.309-0.379-0.109-0.154-0.209-0.329-0.292-0.514l-0.008-0.020c-0.2-0.467-0.3-0.985-0.517-1.452-0.131-0.244-0.269-0.454-0.424-0.65l0.007 0.009c-0.165-0.191-0.317-0.404-0.449-0.63l-0.011-0.020c-0.041-0.091-0.1-0.242-0.034-0.342 0.012-0.058 0.058-0.103 0.117-0.112l0.001-0c0.11-0.090 0.419 0.027 0.527 0.077 0.317 0.12 0.59 0.261 0.843 0.427l-0.016-0.010c0.117 0.082 0.244 0.241 0.394 0.282h0.175c0.267 0.059 0.569 0.018 0.819 0.091 0.459 0.155 0.856 0.349 1.223 0.587l-0.021-0.013c1.104 0.713 1.988 1.677 2.586 2.816l0.020 0.041c0.1 0.192 0.144 0.369 0.235 0.569 0.175 0.412 0.391 0.829 0.569 1.227 0.169 0.428 0.369 0.798 0.607 1.139l-0.012-0.018c0.125 0.175 0.627 0.266 0.852 0.357 0.237 0.083 0.427 0.162 0.611 0.251l-0.037-0.016c0.287 0.175 0.567 0.375 0.837 0.567 0.137 0.095 0.554 0.304 0.579 0.472zM18.302 22.452c0 0.015 0.001 0.032 0.001 0.049 0 0.558-0.249 1.057-0.643 1.393l-0.003 0.002c-0.432 0.352-0.989 0.566-1.596 0.566-0.047 0-0.094-0.001-0.14-0.004l0.006 0c-0.739-0.010-1.419-0.25-1.976-0.651l0.010 0.007 0.296-0.595c0.429 0.24 0.939 0.389 1.481 0.41l0.006 0c0.027 0.002 0.058 0.003 0.090 0.003 0.332 0 0.641-0.104 0.894-0.281l-0.005 0.003c0.229-0.174 0.375-0.446 0.375-0.752 0-0.006-0-0.011-0-0.017v0.001c0-0.412-0.287-0.762-0.81-1.056-0.485-0.266-1.453-0.821-1.453-0.821-0.478-0.296-0.791-0.817-0.791-1.411 0-0.021 0-0.042 0.001-0.063l-0 0.003c-0.001-0.019-0.001-0.041-0.001-0.063 0-0.515 0.227-0.977 0.586-1.291l0.002-0.002c0.382-0.324 0.881-0.521 1.426-0.521 0.035 0 0.069 0.001 0.103 0.002l-0.005-0c0.009-0 0.020-0 0.031-0 0.639 0 1.234 0.191 1.73 0.52l-0.012-0.007-0.266 0.595c-0.391-0.176-0.847-0.282-1.327-0.287l-0.002-0c-0.024-0.002-0.051-0.003-0.079-0.003-0.28 0-0.538 0.098-0.74 0.262l0.002-0.002c-0.189 0.157-0.309 0.392-0.31 0.655v0c0 0.41 0.292 0.762 0.832 1.062 0.491 0.269 1.483 0.837 1.483 0.837 0.488 0.287 0.811 0.809 0.811 1.407 0 0.018-0 0.037-0.001 0.055l0-0.003zM20.374 22.983c-0.273-0.545-0.432-1.187-0.432-1.866 0-0.107 0.004-0.213 0.012-0.317l-0.001 0.014q0-2.611 1.587-2.612c0.026-0.002 0.057-0.003 0.089-0.003 0.475 0 0.892 0.248 1.129 0.622l0.003 0.005c0.271 0.542 0.43 1.182 0.43 1.858 0 0.104-0.004 0.207-0.011 0.309l0.001-0.014q0 2.632-1.587 2.634c-0.027 0.002-0.058 0.003-0.089 0.003-0.475 0-0.893-0.248-1.13-0.622l-0.003-0.005zM24.488 24.535l-1.27-0.625c0.116-0.097 0.22-0.199 0.316-0.309l0.003-0.003c0.513-0.692 0.821-1.563 0.821-2.505 0-0.109-0.004-0.217-0.012-0.324l0.001 0.014q0-3.43-2.693-3.432c-0.040-0.002-0.087-0.003-0.134-0.003-0.767 0-1.456 0.337-1.925 0.872l-0.002 0.003c-0.511 0.692-0.818 1.562-0.818 2.504 0 0.106 0.004 0.211 0.012 0.315l-0.001-0.014c-0.009 0.101-0.014 0.219-0.014 0.338 0 0.874 0.274 1.684 0.74 2.349l-0.009-0.013c0.449 0.478 1.086 0.776 1.791 0.776 0.066 0 0.131-0.003 0.195-0.008l-0.009 0.001c0.009 0 0.021 0 0.032 0 0.311 0 0.612-0.045 0.897-0.128l-0.022 0.006 1.656 0.965 0.45-0.777zM28.636 24.366h-3.287v-6.91h1.106v6.061h2.181zM13.235 19.268c-0.287 2.084-0.944 3.965-1.905 5.65l0.040-0.077c-0.385 0.741-1.113 1.257-1.968 1.34l-0.010 0.001c-0.259-0.014-0.5-0.076-0.719-0.177l0.012 0.005v-0.617c0.137 0.021 0.295 0.033 0.456 0.033 0.009 0 0.018-0 0.028-0h-0.001c0.016 0.001 0.034 0.001 0.052 0.001 0.289 0 0.554-0.105 0.758-0.28l-0.002 0.001c0.22-0.181 0.361-0.451 0.369-0.755l0-0.001c-0.053-0.438-0.154-0.837-0.299-1.214l0.012 0.034-1.267-3.944h1.137l0.909 2.949c0.162 0.416 0.256 0.898 0.256 1.401 0 0.001 0 0.002 0 0.002v-0c0.482-1.262 0.848-2.734 1.034-4.261l0.009-0.092zM8.215 24.366h-1.158q-0.049-2.761-0.337-5.511h-0.010l-1.762 5.511h-0.881l-1.75-5.511h-0.012q-0.205 2.751-0.244 5.511h-1.056q0.103-3.685 0.512-6.911h1.437l1.668 5.079h0.010l1.683-5.079h1.368q0.454 3.777 0.535 6.911zM21.505 7.879c-0.002 0-0.005-0-0.008-0-0.119 0-0.234 0.015-0.344 0.043l0.010-0.002v0.016h0.017c0.086 0.128 0.174 0.239 0.269 0.343l-0.002-0.002c0.067 0.134 0.125 0.267 0.192 0.4l0.017-0.019c0.109-0.086 0.178-0.218 0.178-0.366 0-0.018-0.001-0.035-0.003-0.053l0 0.002c-0.050-0.059-0.057-0.117-0.1-0.175-0.050-0.084-0.157-0.125-0.225-0.191z"
-            ></path>
-          </svg>
-          <p>MYSQL</p>
-        </div>
-       
-          <!-- row end -->
-        </div>
-       
-       <!--Skills section end-->
-
-      <!--portfolio section-->
-     <div class="row  justify-content-evenly body_color" id="portfolio">
-      <div class="shadow-lg d-flex align-items-center justify-content-center nav_color" >
+    <div class="row align-items-center body_color" id="about">
+      <div class=" shadow-lg position-relative d-flex align-items-center justify-content-center nav_color">
         <h1 class="display-4 text-uppercase text-white" style="-webkit-text-stroke: 0.4px yellow">
-         Portfolio
+          About Me
         </h1>
       </div>
-     
-        <div class="card col-md-3 text-center mt-5 mb-5 bg-transparent border border-4" style="width: 18rem;">
-          <img src="images/p1.png" class="card-img-top mt-4" alt="...">
-          <div class="card-body mt-3">
-            <a href="https://kamrul17.github.io/payment-gateway/" class="All_btn">Go Live</a>
+      <div class="col-lg-5 pb-4 pb-lg-0">
+        <img class="img-fluid rounded w-100" src="images/aboutImg.png" alt="My photo" />
+      </div>
+      <div class="col-lg-7">
+        <h3 class="mb-4"> Web_Developer </h3>
+        <p>
+          I am Kamrul Ansari , currently I'm pursuing Bachelor of Technology (B.Tech) in Computer Science and
+          Engineering from Chaibasa Engineering College, Jharkhand.
+        </p>
+        <div class="row mb-3">
+          <div class="col-sm-6 py-2">
+            <h6>
+              Name: <span class="text-secondary">Kamrul Ansari</span>
+            </h6>
           </div>
-        </div>
-        <div class="card col-md-3 text-center mt-5 mb-5 bg-transparent border border-4" style="width: 18rem;">
-          <img src="images/p3.png" class="card-img-top mt-4" alt="...">
-          <div class="card-body">
-            <a href="https://kamrul17.github.io/QuoteGenerator/" class="All_btn">Go Live</a>
+          <div class="col-sm-6 py-2">
+            <h6>
+              Birthday: <span class="text-secondary">26<sup>th</sup> December,1999</span>
+            </h6>
           </div>
-        </div>
-        <div class="card col-md-3 text-center mt-5 mb-5 bg-transparent border border-4" style="width: 18rem;">
-          <img src="images/p2.png" class="card-img-top mt-4" alt="...">
-          <div class="card-body">
-            <a href="https://kamrul17.github.io/RockPaperScissors/" class="All_btn">Go Live</a>
+          <div class="col-sm-6 py-2">
+            <h6>Degree: <span class="text-secondary">Bachelor of Technology (B.Tech)</span></h6>
           </div>
-        </div>
-     </div>
-      <!--portfolio section ENd-->
-      <!--contact section-->
-      <div class="row justify-content-center body_color" id="contact">
-        <div class="shadow-lg d-flex align-items-center justify-content-center nav_color" >
-          <h1 class="display-4 text-uppercase text-white mb-3" style="-webkit-text-stroke: 0.4px yellow">
-            Contact
-          </h1>
-        </div>
-       
-        <div class="col-md-4  ">
-          <div class="my-3 ">
-         
-          <input type="text" class="form-control"  placeholder="Your Name">
-        </div>
-      </div>
-        <div class="col-md-4">
-          <div class="my-3">
-          <input type="email" class="form-control" placeholder="Your Email">
-        </div>
-      </div>
-        <div class="col-md-8">
-          <div class="my-3">
-          <input type="text" class="form-control" placeholder="Subject">
-        </div>
-      </div>
-        <div class="col-md-8">
-          <div class="my-3">  
-            <textarea class="form-control" placeholder="Message" rows="3"></textarea>
+          <div class="col-sm-6 py-2">
+            <h6>Experience: <span class="text-secondary">Fresher</span></h6>
           </div>
+          <div class="col-sm-6 py-2">
+            <h6>
+              Phone No.: <span class="text-secondary">+91-8789577654</span>
+            </h6>
+          </div>
+          <div class="col-sm-6 py-2">
+            <h6>
+              Email:
+              <span class="text-secondary">kamrula786@gmail.com</span>
+            </h6>
+          </div>
+          <div class="col-sm-6 py-2">
+            <h6>
+              Address:
+              <span class="text-secondary">Panchet Dam, Dhanbad, Jharkhand, 828206,</span>
+            </h6>
+          </div>
+
         </div>
-        <div class="col-md-8  d-flex align-items-center justify-content-center ">
-          <button type="button" class="All_btn "> Send Message</button>
-        </div>
-        
+        <a href="https://github.com/kamrul17" class="btn blue btn-outline-primary mr-4 All_btn"
+          target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/kamrulansari/" class="btn btn-outline-primary mr-4 All_btn"
+          target="_blank">Linkedin</a>
+        <a href="#contact" class="btn btn-outline-primary All_btn" target="_blank">Hire Me</a>
       </div>
-      <!--contact section ENd-->
-      
-      <!--footer-->
-      <div class="row justify-content-center text-white" id="footer" >
-        
-        <div class="col-md-4 col-11 text-center my-2 " >
-          <a href="https://www.instagram.com/x_lezen/"> <i class="bi bi-instagram social-icon fs-1 mx-2 "></i></a>
-         <a href="https://www.facebook.com/kamrul.khan.98284566/"><i class="bi bi-facebook social-icon fs-1  mx-2"></i></a>
-<a href="https://github.com/kamrul17"><i class="bi bi-github social-icon fs-1  mx-2"></i></a>
-          
-          <a href="https://www.linkedin.com/in/kamrulansari/"><i class="bi bi-linkedin social-icon fs-1  mx-2"></i></a>
-          
-        </div>
-        <div class="d-flex justify-content-center  my-2 ">
-          <a class="text-white" href="#">Privacy</a>
-          <span class="px-3">|</span>
-          <a class="text-white" href="#contact">Help</a>
-        </div>
-        <div class="d-flex justify-content-center my-2 ">
-          <p class="m-0">
-            <a class="text-white fw-bold" href="" target="_blank">Kamrul Ansari</a>
-            &copy; All Rights Reserved<br>
-          </p>
-        </div>
-        
-      </div>
-      <!--containerfluid end-->
-       <!-- Back to Top -->
-    <a href="#" class="btn px-0 back-to-top" 
-   ><i class="bi bi-caret-up-square-fill"></i></a>
     </div>
-   
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <script src="index.js"></script>
-  </body>
+  </div>
+
+  </div>
+  <!--Skills section-->
+  <div class="row justify-content-around body_color" id="skills">
+
+    <div class=" shadow-lg position-relative d-flex align-items-center justify-content-center nav_color">
+      <h1 class="display-3 text-uppercase text-white" style="-webkit-text-stroke: 0.4px yellow">
+        Skills
+      </h1>
+    </div>
+    <div
+      class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
+      style="width: 100px; height: 100px">
+      <i class="fa-brands fa-html5 fa-regular fa-4x"></i>
+      <p>HTML</p>
+    </div>
+    <div
+      class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
+      style="width: 100px; height: 100px">
+      <i class="fa-brands fa-css3-alt fa-4x"></i>
+      <p>CSS</p>
+    </div>
+    <div
+      class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
+      style="width: 100px; height: 100px">
+      <i class="fa-brands fa-bootstrap fa-4x"></i>
+      <p>BOOTSTRAP</p>
+    </div>
+    <div
+      class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
+      style="width: 100px; height: 100px">
+      <i class="fa-brands fa-java fa-4x"></i>
+      <p>JAVA</p>
+    </div>
+    <div
+      class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
+      style="width: 100px; height: 100px">
+      <i class="fa-brands fa-js fa-4x"></i>
+      <p>Javascript</p>
+    </div>
+    <div
+      class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
+      style="width: 100px; height: 100px">
+      <i class="fa-brands fa-github fa-4x"></i>
+      <p>GITHUB</p>
+    </div>
+    <div
+      class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
+      style="width: 100px; height: 100px">
+      <i class="fa-brands fa-git fa-4x"></i>
+      <p>GIT</p>
+    </div>
+    <div
+      class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
+      style="width: 100px; height: 100px">
+      <i class="fa-brands fa-aws fa-4x"></i>
+      <p>AWS</p>
+    </div>
+
+    <div
+      class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
+      style="width: 100px; height: 100px">
+      <i class="fa-brands fa-jenkins fa-4x"></i>
+      <p>JENKINS</p>
+    </div>
+    <div
+      class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
+      style="width: 100px; height: 100px">
+      <i class="fa-brands fa-python fa-4x"></i>
+      <p>PYTHON</p>
+    </div>
+    <div
+      class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
+      style="width: 100px; height: 100px">
+      <i class="fa-brands fa-react fa-4x"></i>
+      <p>REACT JS</p>
+    </div>
+    <div
+      class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
+      style="width: 100px; height: 100px">
+      <svg width="70" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M12.207 16.278C11.1241 17.343 9.63879 18 8 18C4.68629 18 2 15.3137 2 12C2 8.68629 4.68629 6 8 6C9.67492 6 11.1896 6.6863 12.278 7.79303L13.6923 6.37878C12.2418 4.91014 10.2272 4 8 4C3.58172 4 0 7.58172 0 12C0 16.4183 3.58172 20 8 20C10.1911 20 12.1764 19.1192 13.6212 17.6923L12.207 16.278Z"
+          fill="#000000" />
+        <path d="M15 9H13V11H11V13H13V15H15V13H17V11H15V9Z" fill="#000000" />
+        <path d="M20 9H22V11H24V13H22V15H20V13H18V11H20V9Z" fill="#000000" />
+      </svg>
+      <p>C++</p>
+    </div>
+
+    <div
+      class="col-md-3 col-11 d-flex flex-column pt-4 text-center justify-content-center align-items-center bg  mx-1 my-1"
+      style="width: 100px; height: 100px">
+      <svg fill="#000000" width="80px" height="80px" viewBox="0 0 32 32" version="1.1"
+        xmlns="http://www.w3.org/2000/svg">
+        <title>mysql</title>
+        <path
+          d="M30.026 15.139c-0.082-0.006-0.177-0.010-0.273-0.010-0.484 0-0.947 0.090-1.373 0.254l0.026-0.009c-0.125 0.050-0.325 0.050-0.342 0.209 0.069 0.066 0.079 0.175 0.137 0.267 0.117 0.198 0.261 0.366 0.429 0.506l0.003 0.003c0.175 0.137 0.35 0.27 0.534 0.387 0.325 0.2 0.694 0.319 1.012 0.52 0.181 0.117 0.366 0.266 0.55 0.391 0.091 0.062 0.15 0.175 0.267 0.215v-0.025c-0.057-0.075-0.075-0.184-0.131-0.267-0.084-0.084-0.167-0.159-0.25-0.241-0.248-0.325-0.535-0.603-0.857-0.835l-0.012-0.008c-0.267-0.182-0.852-0.437-0.962-0.744l-0.016-0.018c0.218-0.031 0.412-0.077 0.599-0.139l-0.024 0.007c0.284-0.075 0.544-0.059 0.837-0.132 0.132-0.034 0.266-0.075 0.4-0.117v-0.075c-0.15-0.15-0.262-0.354-0.417-0.494-0.409-0.36-0.86-0.698-1.335-1.002l-0.045-0.027c-0.262-0.167-0.595-0.275-0.871-0.417-0.1-0.050-0.267-0.075-0.325-0.159-0.13-0.185-0.245-0.397-0.336-0.621l-0.008-0.022q-0.368-0.714-0.684-1.453c-0.144-0.383-0.287-0.697-0.448-1.001l0.023 0.047c-0.786-1.319-1.881-2.379-3.188-3.102l-0.043-0.022c-0.309-0.153-0.668-0.272-1.045-0.339l-0.025-0.004c-0.209-0.010-0.417-0.025-0.625-0.034-0.146-0.094-0.272-0.19-0.39-0.296l0.003 0.003c-0.475-0.3-1.704-0.95-2.054-0.090-0.225 0.542 0.334 1.077 0.527 1.352 0.154 0.183 0.294 0.388 0.415 0.605l0.010 0.020c0.059 0.145 0.075 0.294 0.134 0.445 0.145 0.452 0.292 0.823 0.459 1.182l-0.026-0.062c0.099 0.199 0.202 0.368 0.317 0.528l-0.008-0.012c0.067 0.091 0.182 0.134 0.209 0.284-0.086 0.181-0.153 0.391-0.19 0.61l-0.002 0.014c-0.108 0.332-0.171 0.715-0.171 1.112 0 0.621 0.153 1.206 0.423 1.72l-0.010-0.020c0.134 0.207 0.452 0.667 0.878 0.491 0.375-0.15 0.292-0.625 0.4-1.043 0.025-0.1 0.009-0.166 0.060-0.234v0.019c0.117 0.235 0.235 0.459 0.342 0.694 0.302 0.435 0.661 0.805 1.071 1.11l0.013 0.009c0.2 0.15 0.359 0.41 0.609 0.502v-0.025h-0.019c-0.057-0.062-0.12-0.117-0.189-0.164l-0.004-0.002c-0.155-0.152-0.299-0.316-0.429-0.489l-0.008-0.011c-0.326-0.44-0.636-0.938-0.905-1.461l-0.029-0.061c-0.137-0.262-0.252-0.545-0.362-0.804-0.050-0.1-0.050-0.25-0.134-0.3-0.148 0.166-0.281 0.351-0.392 0.55l-0.008 0.016c-0.128 0.373-0.212 0.804-0.234 1.251l-0 0.011c-0.034 0.009-0.017 0-0.034 0.018-0.267-0.065-0.359-0.342-0.459-0.575-0.136-0.366-0.215-0.79-0.215-1.231 0-0.356 0.051-0.7 0.147-1.025l-0.006 0.026c0.059-0.175 0.309-0.727 0.209-0.895-0.052-0.159-0.217-0.25-0.309-0.379-0.109-0.154-0.209-0.329-0.292-0.514l-0.008-0.020c-0.2-0.467-0.3-0.985-0.517-1.452-0.131-0.244-0.269-0.454-0.424-0.65l0.007 0.009c-0.165-0.191-0.317-0.404-0.449-0.63l-0.011-0.020c-0.041-0.091-0.1-0.242-0.034-0.342 0.012-0.058 0.058-0.103 0.117-0.112l0.001-0c0.11-0.090 0.419 0.027 0.527 0.077 0.317 0.12 0.59 0.261 0.843 0.427l-0.016-0.010c0.117 0.082 0.244 0.241 0.394 0.282h0.175c0.267 0.059 0.569 0.018 0.819 0.091 0.459 0.155 0.856 0.349 1.223 0.587l-0.021-0.013c1.104 0.713 1.988 1.677 2.586 2.816l0.020 0.041c0.1 0.192 0.144 0.369 0.235 0.569 0.175 0.412 0.391 0.829 0.569 1.227 0.169 0.428 0.369 0.798 0.607 1.139l-0.012-0.018c0.125 0.175 0.627 0.266 0.852 0.357 0.237 0.083 0.427 0.162 0.611 0.251l-0.037-0.016c0.287 0.175 0.567 0.375 0.837 0.567 0.137 0.095 0.554 0.304 0.579 0.472zM18.302 22.452c0 0.015 0.001 0.032 0.001 0.049 0 0.558-0.249 1.057-0.643 1.393l-0.003 0.002c-0.432 0.352-0.989 0.566-1.596 0.566-0.047 0-0.094-0.001-0.14-0.004l0.006 0c-0.739-0.010-1.419-0.25-1.976-0.651l0.010 0.007 0.296-0.595c0.429 0.24 0.939 0.389 1.481 0.41l0.006 0c0.027 0.002 0.058 0.003 0.090 0.003 0.332 0 0.641-0.104 0.894-0.281l-0.005 0.003c0.229-0.174 0.375-0.446 0.375-0.752 0-0.006-0-0.011-0-0.017v0.001c0-0.412-0.287-0.762-0.81-1.056-0.485-0.266-1.453-0.821-1.453-0.821-0.478-0.296-0.791-0.817-0.791-1.411 0-0.021 0-0.042 0.001-0.063l-0 0.003c-0.001-0.019-0.001-0.041-0.001-0.063 0-0.515 0.227-0.977 0.586-1.291l0.002-0.002c0.382-0.324 0.881-0.521 1.426-0.521 0.035 0 0.069 0.001 0.103 0.002l-0.005-0c0.009-0 0.020-0 0.031-0 0.639 0 1.234 0.191 1.73 0.52l-0.012-0.007-0.266 0.595c-0.391-0.176-0.847-0.282-1.327-0.287l-0.002-0c-0.024-0.002-0.051-0.003-0.079-0.003-0.28 0-0.538 0.098-0.74 0.262l0.002-0.002c-0.189 0.157-0.309 0.392-0.31 0.655v0c0 0.41 0.292 0.762 0.832 1.062 0.491 0.269 1.483 0.837 1.483 0.837 0.488 0.287 0.811 0.809 0.811 1.407 0 0.018-0 0.037-0.001 0.055l0-0.003zM20.374 22.983c-0.273-0.545-0.432-1.187-0.432-1.866 0-0.107 0.004-0.213 0.012-0.317l-0.001 0.014q0-2.611 1.587-2.612c0.026-0.002 0.057-0.003 0.089-0.003 0.475 0 0.892 0.248 1.129 0.622l0.003 0.005c0.271 0.542 0.43 1.182 0.43 1.858 0 0.104-0.004 0.207-0.011 0.309l0.001-0.014q0 2.632-1.587 2.634c-0.027 0.002-0.058 0.003-0.089 0.003-0.475 0-0.893-0.248-1.13-0.622l-0.003-0.005zM24.488 24.535l-1.27-0.625c0.116-0.097 0.22-0.199 0.316-0.309l0.003-0.003c0.513-0.692 0.821-1.563 0.821-2.505 0-0.109-0.004-0.217-0.012-0.324l0.001 0.014q0-3.43-2.693-3.432c-0.040-0.002-0.087-0.003-0.134-0.003-0.767 0-1.456 0.337-1.925 0.872l-0.002 0.003c-0.511 0.692-0.818 1.562-0.818 2.504 0 0.106 0.004 0.211 0.012 0.315l-0.001-0.014c-0.009 0.101-0.014 0.219-0.014 0.338 0 0.874 0.274 1.684 0.74 2.349l-0.009-0.013c0.449 0.478 1.086 0.776 1.791 0.776 0.066 0 0.131-0.003 0.195-0.008l-0.009 0.001c0.009 0 0.021 0 0.032 0 0.311 0 0.612-0.045 0.897-0.128l-0.022 0.006 1.656 0.965 0.45-0.777zM28.636 24.366h-3.287v-6.91h1.106v6.061h2.181zM13.235 19.268c-0.287 2.084-0.944 3.965-1.905 5.65l0.040-0.077c-0.385 0.741-1.113 1.257-1.968 1.34l-0.010 0.001c-0.259-0.014-0.5-0.076-0.719-0.177l0.012 0.005v-0.617c0.137 0.021 0.295 0.033 0.456 0.033 0.009 0 0.018-0 0.028-0h-0.001c0.016 0.001 0.034 0.001 0.052 0.001 0.289 0 0.554-0.105 0.758-0.28l-0.002 0.001c0.22-0.181 0.361-0.451 0.369-0.755l0-0.001c-0.053-0.438-0.154-0.837-0.299-1.214l0.012 0.034-1.267-3.944h1.137l0.909 2.949c0.162 0.416 0.256 0.898 0.256 1.401 0 0.001 0 0.002 0 0.002v-0c0.482-1.262 0.848-2.734 1.034-4.261l0.009-0.092zM8.215 24.366h-1.158q-0.049-2.761-0.337-5.511h-0.010l-1.762 5.511h-0.881l-1.75-5.511h-0.012q-0.205 2.751-0.244 5.511h-1.056q0.103-3.685 0.512-6.911h1.437l1.668 5.079h0.010l1.683-5.079h1.368q0.454 3.777 0.535 6.911zM21.505 7.879c-0.002 0-0.005-0-0.008-0-0.119 0-0.234 0.015-0.344 0.043l0.010-0.002v0.016h0.017c0.086 0.128 0.174 0.239 0.269 0.343l-0.002-0.002c0.067 0.134 0.125 0.267 0.192 0.4l0.017-0.019c0.109-0.086 0.178-0.218 0.178-0.366 0-0.018-0.001-0.035-0.003-0.053l0 0.002c-0.050-0.059-0.057-0.117-0.1-0.175-0.050-0.084-0.157-0.125-0.225-0.191z">
+        </path>
+      </svg>
+      <p>MYSQL</p>
+    </div>
+
+    <!-- row end -->
+  </div>
+
+  <!--Skills section end-->
+
+  <!--portfolio section-->
+  <div class="row  justify-content-evenly body_color" id="portfolio">
+    <div class="shadow-lg d-flex align-items-center justify-content-center nav_color">
+      <h1 class="display-4 text-uppercase text-white" style="-webkit-text-stroke: 0.4px yellow">
+        Portfolio
+      </h1>
+    </div>
+
+    <div class="card col-md-3 text-center mt-5 mb-5 bg-transparent border border-4" style="width: 18rem;">
+      <img src="images/p1.png" class="card-img-top mt-4" alt="...">
+      <div class="card-body mt-3">
+        <a href="https://kamrul17.github.io/payment-gateway/" class="All_btn">Go Live</a>
+      </div>
+    </div>
+    <div class="card col-md-3 text-center mt-5 mb-5 bg-transparent border border-4" style="width: 18rem;">
+      <img src="images/p3.png" class="card-img-top mt-4" alt="...">
+      <div class="card-body">
+        <a href="https://kamrul17.github.io/QuoteGenerator/" class="All_btn">Go Live</a>
+      </div>
+    </div>
+    <div class="card col-md-3 text-center mt-5 mb-5 bg-transparent border border-4" style="width: 18rem;">
+      <img src="images/p2.png" class="card-img-top mt-4" alt="...">
+      <div class="card-body">
+        <a href="https://kamrul17.github.io/RockPaperScissors/" class="All_btn">Go Live</a>
+      </div>
+    </div>
+  </div>
+  <!--portfolio section ENd-->
+  <!--contact section-->
+  <div class="row justify-content-center body_color" id="contact">
+    <div class="shadow-lg d-flex align-items-center justify-content-center nav_color">
+      <h1 class="display-4 text-uppercase text-white mb-3" style="-webkit-text-stroke: 0.4px yellow">
+        Contact
+      </h1>
+    </div>
+
+    <div class="col-md-4  ">
+      <div class="my-3 ">
+
+        <input type="text" class="form-control" placeholder="Your Name">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="my-3">
+        <input type="email" class="form-control" placeholder="Your Email">
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div class="my-3">
+        <input type="text" class="form-control" placeholder="Subject">
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div class="my-3">
+        <textarea class="form-control" placeholder="Message" rows="3"></textarea>
+      </div>
+    </div>
+    <div class="col-md-8  d-flex align-items-center justify-content-center ">
+      <button type="button" class="All_btn "> Send Message</button>
+    </div>
+
+  </div>
+  <!--contact section ENd-->
+
+  <!--footer-->
+  <div class="row justify-content-center text-white" id="footer">
+
+    <div class="col-md-4 col-11 text-center my-2 ">
+      <a href="https://www.instagram.com/x_lezen/"> <i class="bi bi-instagram social-icon fs-1 mx-2 "></i></a>
+      <a href="https://www.facebook.com/kamrul.khan.98284566/"><i class="bi bi-facebook social-icon fs-1  mx-2"></i></a>
+      <a href="https://github.com/kamrul17"><i class="bi bi-github social-icon fs-1  mx-2"></i></a>
+
+      <a href="https://www.linkedin.com/in/kamrulansari/"><i class="bi bi-linkedin social-icon fs-1  mx-2"></i></a>
+
+    </div>
+    <div class="d-flex justify-content-center  my-2 ">
+      <a class="text-white" href="#">Privacy</a>
+      <span class="px-3">|</span>
+      <a class="text-white" href="#contact">Help</a>
+    </div>
+    <div class="d-flex justify-content-center my-2 ">
+      <p class="m-0">
+        <a class="text-white fw-bold" href="" target="_blank">Kamrul Ansari</a>
+        &copy; All Rights Reserved<br>
+      </p>
+    </div>
+
+  </div>
+  <!--containerfluid end-->
+  <!-- Back to Top -->
+  <a href="#" class="btn px-0 back-to-top"><i class="bi bi-caret-up-square-fill"></i></a>
+  </div>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
